@@ -1,0 +1,20 @@
+.menu-item__bold {
+    font-family: $raleway;
+    font-weight: $font-black;
+    color: $smoky-black !important;
+}
+
+.menu-brand {
+    background-color: $smoky-black;
+    width: 120px; 
+    height: 120px;
+}
+
+.menu-brand__text {
+    color: $white !important;
+    display: inline-flex;
+    padding-top: 30%;
+    font-family: $old-standar;
+    font-size: $xx-large;
+    margin: 0 !important;
+}
