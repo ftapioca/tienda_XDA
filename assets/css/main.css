@@ -10773,6 +10773,35 @@ textarea.form-control-lg {
   font-size: 20px;
 }
 
+.main-newsletter {
+  padding: 2rem 5rem 5rem 5rem;
+  background-color: #0C0910;
+}
+
+.main-newsletter_titulo {
+  color: #FFF;
+  font-size: 30px;
+  font-family: "Old Standar TT", serif;
+}
+
+.main-newsletter_subtitulo {
+  color: #D1D1D1;
+  font-size: 20px;
+  font-family: "Old Standar TT", serif;
+  padding-top: 1rem;
+}
+
+.main-suscribir {
+  position: relative;
+  background-color: red;
+  width: 4rem;
+  float: right;
+}
+
+.main-suscribir_texto {
+  transform: rotate(90deg);
+}
+
 .menu-item__bold {
   font-family: "Raleway", sans-serif;
   font-weight: 900;

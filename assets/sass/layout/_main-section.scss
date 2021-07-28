@@ -20,3 +20,31 @@
     font-size: $x-large;
 }
 
+.main-newsletter {
+    padding: 2rem 5rem 5rem 5rem;
+    background-color: $smoky-black;
+}
+
+.main-newsletter_titulo {
+    color: $white;
+    font-size: $xx-large;
+    font-family: $old-standar;
+}
+
+.main-newsletter_subtitulo {
+    color: $light-gray;
+    font-size: $x-large;
+    font-family: $old-standar;
+    padding-top: 1rem;
+}
+
+.main-suscribir {
+    position: relative;
+    background-color: red;
+    width: 4rem;
+    float: right;
+}
+
+.main-suscribir_texto {
+    transform: rotate(90deg);
+}
