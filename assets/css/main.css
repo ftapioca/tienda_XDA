@@ -10753,7 +10753,7 @@ textarea.form-control-lg {
 
 .imagen-principal {
   float: right;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -10774,8 +10774,11 @@ textarea.form-control-lg {
 }
 
 .main-newsletter {
-  padding: 2rem 5rem 5rem 5rem;
   background-color: #0C0910;
+}
+
+.main-newsletter_espacio {
+  padding: 2rem 5rem 5rem 6rem;
 }
 
 .main-newsletter_titulo {
@@ -10792,13 +10795,13 @@ textarea.form-control-lg {
 }
 
 .main-suscribir {
-  position: relative;
-  background-color: red;
-  width: 4rem;
-  float: right;
+  background-color: white;
 }
 
 .main-suscribir_texto {
+  font-family: "Old Standar TT", serif;
+  font-weight: 900;
+  font-size: 30px;
   transform: rotate(90deg);
 }
 

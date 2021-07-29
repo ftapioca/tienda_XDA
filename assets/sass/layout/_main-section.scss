@@ -1,6 +1,6 @@
 .imagen-principal {
     float: right;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -21,8 +21,14 @@
 }
 
 .main-newsletter {
-    padding: 2rem 5rem 5rem 5rem;
+    //padding: 2rem 5rem 5rem 5rem;
+//    display: flex;
+ //   justify-content: center;
     background-color: $smoky-black;
+}
+
+.main-newsletter_espacio {
+    padding: 2rem 5rem 5rem 6rem;
 }
 
 .main-newsletter_titulo {
@@ -39,12 +45,13 @@
 }
 
 .main-suscribir {
-    position: relative;
-    background-color: red;
-    width: 4rem;
-    float: right;
+    background-color: white;
+    //width: 4rem;
 }
 
 .main-suscribir_texto {
+    font-family: $old-standar;
+    font-weight: $font-black;
+    font-size: $xx-large;
     transform: rotate(90deg);
 }
